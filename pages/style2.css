@@ -1,0 +1,30 @@
+p {
+    color: rgb(12, 235, 60);
+    font-size: 1.2em;
+    text-align: justify;
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    color: rgb(241, 2, 2);
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+span {
+    color: rgb(11, 228, 243);
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(244, 117, 165);
+}
+
+a {
+    color: rgb(7, 155, 254);
+    font-size: 1.2em;
+}

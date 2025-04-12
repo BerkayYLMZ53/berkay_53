@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formu Doldurduğunuz İçin Teşekkürler......</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+
+<body>
+
+    <script>
+
+        var veriler = new URLSearchParams(window.location.search);
+        var ad = veriler.get('isim');
+        var soyad = veriler.get('soyad');
+        var cinsiyet = veriler.get('cinsiyet');
+        var oyunlar = veriler.get('oyunlar');
+
+        document.write("<p><h3>Formu doldurduğunuz için teşekkürler......</h3></p>");
+        document.write("<p>Adınız: " + ad + "</p>");
+        document.write("<p>Soyadınız: " + soyad + "</p>");
+        document.write("<p>Cinsiyetiniz: " + cinsiyet + "</p>");
+        document.write("<p>Oyun Adı: " + oyunlar + "</p>");
+    </script>
+    <br>
+    <a href="../index.html">Anasayfaya Dön</a>
+
+
+
+</body>
+
+</html>
